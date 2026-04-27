@@ -28,8 +28,8 @@ const Navbar = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b-2 border-gold ${scrolled ? "bg-dark-navy/95 backdrop-blur-md shadow-lg" : "bg-dark-navy"}`}>
       <nav className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/images/logo.png" alt="Royaume Shipping Line" className="h-12 md:h-14 w-auto" />
-          <span className="hidden lg:block font-cinzel text-gold text-sm font-bold tracking-wide">ROYAUME SHIPPING LINE</span>
+          <img src="/images/logo.png" alt="Catholic Shipping Line" className="h-12 md:h-14 w-auto" />
+          <span className="hidden lg:block font-cinzel text-gold text-sm font-bold tracking-wide">CATHOLIC SHIPPING LNE INC</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-6">

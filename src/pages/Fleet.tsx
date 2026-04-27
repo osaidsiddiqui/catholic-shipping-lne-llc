@@ -4,16 +4,16 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const vessels = [
   {
-    img: "https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2F398d22f162a14b51a2848885b71b0718?format=webp&width=800&height=1200", name: "M/V ROYAUME I", route: "Miami ↔ Caribbean",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Royaume Shipping Line LLC"]],
+    img: "/images/ship1.png", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean",
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
   {
-    img: "https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2F4bb9a9af0fca46079f55764513f87b32?format=webp&width=800&height=1200", name: "M/V ROYAUME II", route: "Miami ↔ West Africa",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Royaume Shipping Line LLC"]],
+    img: "/images/ship2.png", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa",
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
   {
-    img: "https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2F25fb8146fd43427da7cf1275d4db50ff?format=webp&width=800&height=1200", name: "M/V ROYAUME III", route: "Miami ↔ Europe",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Royaume Shipping Line LLC"]],
+    img: "/images/ship3.png", name: "M/V CATHOLIC III", route: "Miami ↔ Europe",
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
 ];
 

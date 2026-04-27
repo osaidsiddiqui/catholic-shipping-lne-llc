@@ -35,8 +35,8 @@ const About = () => (
           <ScrollReveal delay={200}>
             <h2 className="font-cinzel text-3xl text-navy font-bold mb-4">OUR STORY</h2>
             <div className="font-source text-text-muted leading-relaxed space-y-4">
-              <p>Royaume Shipping Line Import Export LLC was founded in Miami, Florida by William Fils Coles with a singular mission: to provide world-class import and export shipping services that connect businesses and families to global markets.</p>
-              <p>Our name — 'Royaume,' meaning 'Kingdom' in French — reflects our regal commitment to excellence, our Caribbean heritage, and our ambition to reign at the highest standard in the shipping industry.</p>
+              <p>Catholic Shipping LNE Inc was founded in Miami, Florida by William Fils Coles with a singular mission: to provide world-class import and export shipping services that connect businesses and families to global markets.</p>
+              <p>Built on the foundation of Faith, Service, and Delivery, our company is committed to excellence in every aspect of international shipping. We honor our values of integrity, reliability, and community service as we serve our clients with dedication and professionalism.</p>
               <p>We serve businesses of all sizes, from individual shippers sending personal effects to large corporations managing high-volume container shipments. No matter the size or destination, we handle every shipment with the same level of care and professionalism.</p>
             </div>
           </ScrollReveal>
@@ -51,7 +51,7 @@ const About = () => (
           {[
             { icon: Target, title: "Mission", text: "To deliver reliable, compliant, and cost-effective international shipping solutions that empower businesses and individuals to trade globally without barriers." },
             { icon: Eye, title: "Vision", text: "To be the premier maritime freight forwarder in Miami, recognized throughout the Caribbean, Africa, and the Americas for operational excellence." },
-            { icon: Anchor, title: "Values", text: "Integrity | Reliability | Excellence | Community | Respect" },
+            { icon: Anchor, title: "Values", text: "Faith | Service | Delivery | Integrity | Community" },
           ].map((item, i) => (
             <ScrollReveal key={item.title} delay={i * 150}>
               <div className="bg-navy p-8 rounded-lg text-center h-full">
@@ -71,8 +71,8 @@ const About = () => (
         <ScrollReveal>
           <h2 className="font-cinzel text-3xl text-navy font-bold mb-8">MEET OUR TEAM</h2>
           <div className="max-w-md mx-auto bg-card-bg rounded-lg p-8">
-            <div className="w-24 h-24 rounded-full bg-navy flex items-center justify-center mx-auto mb-4">
-              <span className="font-cinzel text-2xl text-gold font-bold">WC</span>
+            <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4 border-4 border-gold">
+              <img src="/images/owner.jpg" alt="William Fils Coles" className="w-full h-full object-cover" />
             </div>
             <h3 className="font-cinzel text-xl text-navy font-bold">William Fils Coles</h3>
             <p className="font-raleway text-gold text-sm font-bold mb-3">Founder & CEO</p>
