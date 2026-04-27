@@ -23,14 +23,14 @@ const StatItem = ({ target, suffix, label }: { target: number; suffix: string; l
 
 const About = () => (
   <main>
-    <PageHero title="ABOUT US" breadcrumb="About" bgImage="https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2F398d22f162a14b51a2848885b71b0718?format=webp&width=800&height=1200" />
+    <PageHero title="ABOUT US" breadcrumb="About" bgImage="https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Fc063194d4b164e15b6e4cf2319ff735a?format=webp&width=800&height=1200" />
 
     {/* Our Story */}
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <ScrollReveal>
-            <img src="https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2F4bb9a9af0fca46079f55764513f87b32?format=webp&width=800&height=1200" alt="Royaume vessel" className="w-full h-96 object-cover rounded-lg" />
+            <img src="https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F9557b3cd417b4d208deea070c4f7757a?format=webp&width=800&height=1200" alt="Royaume vessel" className="w-full h-96 object-cover rounded-lg" />
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <h2 className="font-cinzel text-3xl text-navy font-bold mb-4">OUR STORY</h2>

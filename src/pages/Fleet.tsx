@@ -4,22 +4,22 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const vessels = [
   {
-    img: "/images/ship1.png", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Ff0090543ee2e45479eac655e08e1ff64?format=webp&width=800&height=1200", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean",
     specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
   {
-    img: "/images/ship2.png", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F5adb7bfa31604e3c9415dc0e53df30ee?format=webp&width=800&height=1200", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa",
     specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
   {
-    img: "/images/ship3.png", name: "M/V CATHOLIC III", route: "Miami ↔ Europe",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Fb5bb33d226b745fcbaeb612980bba014?format=webp&width=800&height=1200", name: "M/V CATHOLIC III", route: "Miami ↔ Europe",
     specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
   },
 ];
 
 const Fleet = () => (
   <main>
-    <PageHero title="OUR FLEET" breadcrumb="Fleet" bgImage="https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2Ff41773654fdc4db1826b8ceb351ea5e0?format=webp&width=800&height=1200" />
+    <PageHero title="OUR FLEET" breadcrumb="Fleet" bgImage="https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F9557b3cd417b4d208deea070c4f7757a?format=webp&width=800&height=1200" />
 
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
