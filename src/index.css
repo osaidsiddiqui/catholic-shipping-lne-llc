@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy: 228 60% 26%;
+    --dark-navy: 224 70% 17%;
+    --gold: 42 50% 54%;
+    --light-gold: 40 70% 69%;
+    --red-accent: 0 69% 42%;
+    --off-white: 224 40% 97%;
+    --text-muted: 220 20% 50%;
+    --card-bg: 224 30% 95%;
+    --section-alt: 228 70% 22%;
+
+    --background: 0 0% 100%;
+    --foreground: 228 60% 26%;
+    --card: 224 30% 95%;
+    --card-foreground: 228 60% 26%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 228 60% 26%;
+    --primary: 228 60% 26%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 42 50% 54%;
+    --secondary-foreground: 228 60% 26%;
+    --muted: 224 40% 97%;
+    --muted-foreground: 220 20% 50%;
+    --accent: 42 50% 54%;
+    --accent-foreground: 228 60% 26%;
+    --destructive: 0 69% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 25% 82%;
+    --input: 220 25% 82%;
+    --ring: 42 50% 54%;
+    --radius: 0.5rem;
+
+    --sidebar-background: 224 70% 17%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 42 50% 54%;
+    --sidebar-primary-foreground: 228 60% 26%;
+    --sidebar-accent: 228 70% 22%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 25% 82%;
+    --sidebar-ring: 42 50% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+  }
+  h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@layer components {
+  .font-cinzel { font-family: 'Cinzel', serif; }
+  .font-raleway { font-family: 'Raleway', sans-serif; }
+  .font-source { font-family: 'Source Sans 3', sans-serif; }
+  .font-bebas { font-family: 'Bebas Neue', sans-serif; }
+}
+
+/* Preloader */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px hsl(42 50% 54% / 0.3); }
+  50% { box-shadow: 0 0 60px hsl(42 50% 54% / 0.7); }
+}
+@keyframes load-bar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+@keyframes letter-fade {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-out-up {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-40px); }
+}
+
+/* Hero animations */
+@keyframes slide-up-fade {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes bounce-arrow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(12px); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes slide-in-left {
+  0% { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes count-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+.animate-load-bar { animation: load-bar 2.8s ease-out forwards; }
+.animate-fade-out-up { animation: fade-out-up 0.6s ease-in forwards; }
+.animate-slide-up-fade { animation: slide-up-fade 0.7s ease-out forwards; opacity: 0; }
+.animate-bounce-arrow { animation: bounce-arrow 1.5s ease-in-out infinite; }
+.animate-slide-in-left { animation: slide-in-left 0.6s ease-out forwards; opacity: 0; }
+
+.btn-shimmer {
+  background-image: linear-gradient(90deg, transparent 0%, hsl(40 70% 69% / 0.35) 50%, transparent 100%);
+  background-size: 200% 100%;
+  box-shadow: 0 10px 24px hsl(224 70% 17% / 0.18);
+}
+.btn-shimmer:hover {
+  animation: shimmer 1.5s linear infinite;
+}
+
+.gold-focus:focus {
+  box-shadow: 0 0 0 3px hsl(42 50% 54% / 0.4);
+  border-color: hsl(var(--gold));
+}
