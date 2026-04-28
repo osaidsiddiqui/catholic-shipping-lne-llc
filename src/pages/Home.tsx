@@ -47,16 +47,16 @@ const StatCounter = ({ target, suffix, label }: { target: number; suffix: string
 };
 
 const fleetShips = [
-  { img: "/images/ship1.png", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean" },
-  { img: "/images/ship2.png", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa" },
-  { img: "/images/ship3.png", name: "M/V CATHOLIC III", route: "Miami ↔ Europe" },
+  { img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Ff0090543ee2e45479eac655e08e1ff64?format=webp&width=800&height=1200", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean" },
+  { img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F5adb7bfa31604e3c9415dc0e53df30ee?format=webp&width=800&height=1200", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa" },
+  { img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Fb5bb33d226b745fcbaeb612980bba014?format=webp&width=800&height=1200", name: "M/V CATHOLIC III", route: "Miami ↔ Europe" },
 ];
 
 const Home = () => (
   <main>
     {/* Hero */}
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      <img src="https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2Fa64a2da2d90d48c9b35eb25617e66d6d?format=webp&width=800&height=1200" alt="Cargo vessel at sea" className="absolute inset-0 w-full h-full object-cover" />
+      <img src="https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Fc063194d4b164e15b6e4cf2319ff735a?format=webp&width=800&height=1200" alt="Cargo vessel at sea" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-dark-navy/70" />
       <div className="relative z-10 container mx-auto px-4 py-32 md:py-0">
         <p className="font-raleway text-gold text-xs md:text-sm uppercase tracking-[0.3em] mb-4 animate-slide-up-fade" style={{ animationDelay: "0.2s" }}>
@@ -125,7 +125,7 @@ const Home = () => (
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <div className="overflow-hidden rounded-lg">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F0b787987c61147ae8b07b32105eda08a%2Ff41773654fdc4db1826b8ceb351ea5e0?format=webp&width=800&height=1200" alt="Royaume fleet vessel" className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F9557b3cd417b4d208deea070c4f7757a?format=webp&width=800&height=1200" alt="Royaume fleet vessel" className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500" />
             </div>
           </ScrollReveal>
         </div>
