@@ -7,7 +7,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 const faqs = [
   { q: "What documents do I need to track my shipment?", a: "Your Bill of Lading number, container number, or booking reference number provided at time of booking." },
   { q: "How often is tracking updated?", a: "Tracking is updated at each major milestone: booking, port departure, transit, and arrival." },
-  { q: "What if my shipment is delayed?", a: "Our team will contact you proactively. You can also reach us 24/7 at (786) 329-2575." },
+  { q: "What if my shipment is delayed?", a: "Our team will contact you proactively. You can also reach us 24/7 at (305) 850-7635." },
   { q: "Do you offer real-time GPS tracking?", a: "Yes, for select shipments. Ask us about live tracking options when booking." },
 ];
 
@@ -74,7 +74,7 @@ const Tracking = () => {
           </ScrollReveal>
 
           <p className="font-source text-xs text-text-muted text-center mt-4">
-            For real-time tracking assistance, please contact us directly at (786) 446-7444 or royaumeshippinglinellc@gmail.com
+            For real-time tracking assistance, please contact us directly at (305) 850-7635 or royaumeshippinglinellc@gmail.com
           </p>
         </div>
       </section>

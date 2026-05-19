@@ -29,7 +29,7 @@ const Navbar = () => {
       <nav className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-3">
           <img src="/images/logo.png" alt="Catholic Shipping Line" className="h-12 md:h-14 w-auto" />
-          <span className="hidden lg:block font-cinzel text-gold text-sm font-bold tracking-wide">CATHOLIC SHIPPING LNE INC</span>
+          <span className="hidden lg:block font-cinzel text-gold text-sm font-bold tracking-wide">CATHOLIC SHIPPING LINE INC</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-6">

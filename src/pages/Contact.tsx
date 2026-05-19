@@ -30,15 +30,15 @@ const Contact = () => {
                 <img src="/images/logo.png" alt="Catholic Shipping Line" className="h-16 mb-6" />
                 <h3 className="font-cinzel text-xl text-primary-foreground font-bold mb-1">William Fils Coles</h3>
                 <p className="font-raleway text-gold text-sm font-bold mb-4">Founder & CEO</p>
-                <p className="font-source text-primary-foreground/70 text-sm mb-6">Catholic Shipping LNE Inc</p>
+                <p className="font-source text-primary-foreground/70 text-sm mb-6">Catholic Shipping LINE Inc</p>
                 <div className="space-y-4 font-source text-sm text-primary-foreground/80">
                   <p className="flex items-center gap-2"><MapPin size={16} className="text-gold shrink-0" /> Miami, FL, USA</p>
-                  <a href="tel:7863292575" className="flex items-center gap-2 hover:text-gold transition-colors font-bold"><Phone size={16} className="text-gold shrink-0" /> (786) 329-2575</a>
+                  <a href="tel:3058507635" className="flex items-center gap-2 hover:text-gold transition-colors font-bold"><Phone size={16} className="text-gold shrink-0" /> (305) 850-7635</a>
                   <p className="flex items-center gap-2"><span className="text-gold font-bold shrink-0">•</span> Calls answered by Virtual Receptionist</p>
                   <div className="pt-2 border-t border-primary-foreground/10 space-y-2">
                     <p className="uppercase tracking-wider text-xs text-primary-foreground/50">Extensions</p>
-                    <a href="tel:7866221431" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1002 — (786) 622-1431</a>
-                    <a href="tel:7866221432" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1003 — (786) 622-1432</a>
+                    <a href="tel:7866221682" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1002 — (786) 622-1682</a>
+                    <a href="tel:7866221683" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1003 — (786) 622-1683</a>
                   </div>
                   <a href="mailto:royaumeshippinglinellc@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors break-all"><Mail size={16} className="text-gold shrink-0" /> royaumeshippinglinellc@gmail.com</a>
                   <p className="flex items-start gap-2"><Clock size={16} className="text-gold shrink-0 mt-0.5" /> Mon–Fri 8AM–6PM EST<br />Sat 9AM–2PM</p>

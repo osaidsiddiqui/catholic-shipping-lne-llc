@@ -35,7 +35,7 @@ const About = () => (
           <ScrollReveal delay={200}>
             <h2 className="font-cinzel text-3xl text-navy font-bold mb-4">OUR STORY</h2>
             <div className="font-source text-text-muted leading-relaxed space-y-4">
-              <p>Catholic Shipping LNE Inc was founded in Miami, Florida by William Fils Coles with a singular mission: to provide world-class import and export shipping services that connect businesses and families to global markets.</p>
+              <p>Catholic Shipping LINE Inc was founded in Miami, Florida by William Fils Coles with a singular mission: to provide world-class import and export shipping services that connect businesses and families to global markets.</p>
               <p>Built on the foundation of Faith, Service, and Delivery, our company is committed to excellence in every aspect of international shipping. We honor our values of integrity, reliability, and community service as we serve our clients with dedication and professionalism.</p>
               <p>We serve businesses of all sizes, from individual shippers sending personal effects to large corporations managing high-volume container shipments. No matter the size or destination, we handle every shipment with the same level of care and professionalism.</p>
             </div>
