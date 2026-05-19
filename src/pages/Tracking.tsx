@@ -74,7 +74,7 @@ const Tracking = () => {
           </ScrollReveal>
 
           <p className="font-source text-xs text-text-muted text-center mt-4">
-            For real-time tracking assistance, please contact us directly at (786) 446-7444 or royaumeshippinglinellc@gmail.com
+            For real-time tracking assistance, please contact us directly at (305) 850-7635 or royaumeshippinglinellc@gmail.com
           </p>
         </div>
       </section>

@@ -37,8 +37,8 @@ const Contact = () => {
                   <p className="flex items-center gap-2"><span className="text-gold font-bold shrink-0">•</span> Calls answered by Virtual Receptionist</p>
                   <div className="pt-2 border-t border-primary-foreground/10 space-y-2">
                     <p className="uppercase tracking-wider text-xs text-primary-foreground/50">Extensions</p>
-                    <a href="tel:7866221431" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1002 — (786) 622-1431</a>
-                    <a href="tel:7866221432" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1003 — (786) 622-1432</a>
+                    <a href="tel:7866221682" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1002 — (786) 622-1682</a>
+                    <a href="tel:7866221683" className="flex items-center gap-2 hover:text-gold transition-colors"><Phone size={16} className="text-gold shrink-0" /> Ext. 1003 — (786) 622-1683</a>
                   </div>
                   <a href="mailto:royaumeshippinglinellc@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors break-all"><Mail size={16} className="text-gold shrink-0" /> royaumeshippinglinellc@gmail.com</a>
                   <p className="flex items-start gap-2"><Clock size={16} className="text-gold shrink-0 mt-0.5" /> Mon–Fri 8AM–6PM EST<br />Sat 9AM–2PM</p>
