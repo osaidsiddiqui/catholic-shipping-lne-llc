@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const Preloader = ({ onComplete }: { onComplete: () => void }) => {
   const [fadeOut, setFadeOut] = useState(false);
-  const title = "CATHOLIC SHIPPING LNE INC";
+  const title = "CATHOLIC SHIPPING LINE INC";
 
   useEffect(() => {
     const timer = setTimeout(() => setFadeOut(true), 3200);

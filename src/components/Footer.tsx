@@ -20,7 +20,7 @@ const Footer = () => (
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-primary-foreground">
         <div>
-          <h3 className="font-cinzel text-gold text-lg mb-3">Catholic Shipping LNE Inc</h3>
+          <h3 className="font-cinzel text-gold text-lg mb-3">Catholic Shipping LINE Inc</h3>
           <p className="font-source text-sm text-primary-foreground/70 leading-relaxed">
             Connecting Continents. Delivering Excellence. Your trusted partner for international shipping, import/export, and cargo logistics from Miami to the world.
           </p>
@@ -48,7 +48,7 @@ const Footer = () => (
           <h4 className="font-raleway font-bold text-gold text-sm uppercase tracking-wider mb-3">Contact Info</h4>
           <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
             <span className="flex items-center gap-2"><MapPin size={16} className="text-gold shrink-0" /> Miami, FL, USA</span>
-            <a href="tel:7863292575" className="flex items-center gap-2 hover:text-gold transition-colors font-bold"><Phone size={16} className="text-gold shrink-0" /> (786) 329-2575</a>
+            <a href="tel:3058507635" className="flex items-center gap-2 hover:text-gold transition-colors font-bold"><Phone size={16} className="text-gold shrink-0" /> (305) 850-7635</a>
             <span className="text-xs text-primary-foreground/50">Calls answered by Virtual Receptionist</span>
             <a href="mailto:royaumeshippinglinellc@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors break-all"><Mail size={16} className="text-gold shrink-0" /> royaumeshippinglinellc@gmail.com</a>
           </div>
@@ -56,7 +56,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-gold/30 mt-10 pt-6 text-center">
-        <p className="font-source text-xs text-primary-foreground/50">© 2025 Catholic Shipping LNE Inc. All Rights Reserved. Miami, FL.</p>
+        <p className="font-source text-xs text-primary-foreground/50">© 2025 Catholic Shipping LINE Inc. All Rights Reserved. Miami, FL.</p>
       </div>
     </div>
   </footer>

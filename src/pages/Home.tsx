@@ -66,7 +66,7 @@ const Home = () => (
           Connecting Continents.<br />Delivering Excellence.
         </h1>
         <p className="font-source text-primary-foreground/80 text-base md:text-lg max-w-2xl mb-8 leading-relaxed animate-slide-up-fade" style={{ animationDelay: "0.6s" }}>
-          Catholic Shipping LNE Inc provides reliable ocean freight, cargo logistics, import/export documentation, and door-to-door delivery services from Miami to worldwide destinations.
+          Catholic Shipping LINE Inc provides reliable ocean freight, cargo logistics, import/export documentation, and door-to-door delivery services from Miami to worldwide destinations.
         </p>
         <div className="flex flex-wrap gap-4 animate-slide-up-fade" style={{ animationDelay: "0.8s" }}>
           <Link to="/contact" className="px-8 py-3 bg-gold text-dark-navy font-raleway font-bold rounded btn-shimmer hover:bg-light-gold transition-colors">
@@ -117,7 +117,7 @@ const Home = () => (
           <ScrollReveal>
             <h2 className="font-cinzel text-3xl md:text-4xl text-navy font-bold mb-4">WHO WE ARE</h2>
             <p className="font-source text-text-muted leading-relaxed mb-6">
-              Catholic Shipping LNE Inc is a Miami-based international freight and logistics company dedicated to moving goods across the globe with precision, reliability, and professionalism. Led by William Fils Coles, our team specializes in ocean and air freight, import/export customs clearance, cargo consolidation, and door-to-door delivery services.
+              Catholic Shipping LINE Inc is a Miami-based international freight and logistics company dedicated to moving goods across the globe with precision, reliability, and professionalism. Led by William Fils Coles, our team specializes in ocean and air freight, import/export customs clearance, cargo consolidation, and door-to-door delivery services.
             </p>
             <Link to="/about" className="inline-block px-6 py-2.5 border-2 border-gold text-gold font-raleway font-bold rounded hover:bg-gold hover:text-dark-navy transition-colors">
               Read More →
@@ -231,7 +231,7 @@ const Home = () => (
     <section className="py-16 bg-dark-navy text-center">
       <div className="container mx-auto px-4">
         <h2 className="font-cinzel text-3xl text-primary-foreground font-bold mb-4">READY TO SHIP WITH US?</h2>
-        <p className="font-source text-primary-foreground/70 mb-2">📞 (786) 329-2575</p>
+        <p className="font-source text-primary-foreground/70 mb-2">📞 (305) 850-7635</p>
         <p className="font-source text-primary-foreground/70 mb-2">Calls answered by Virtual Receptionist</p>
         <p className="font-source text-primary-foreground/70 mb-6">✉️ royaumeshippinglinellc@gmail.com</p>
         <Link to="/contact" className="px-8 py-3 bg-gold text-dark-navy font-raleway font-bold rounded btn-shimmer hover:bg-light-gold transition-colors">

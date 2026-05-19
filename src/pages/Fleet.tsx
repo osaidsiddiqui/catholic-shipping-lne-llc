@@ -5,15 +5,15 @@ import ScrollReveal from "@/components/ScrollReveal";
 const vessels = [
   {
     img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Ff0090543ee2e45479eac655e08e1ff64?format=webp&width=800&height=1200", name: "M/V CATHOLIC I", route: "Miami ↔ Caribbean",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LINE Inc"]],
   },
   {
     img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2F5adb7bfa31604e3c9415dc0e53df30ee?format=webp&width=800&height=1200", name: "M/V CATHOLIC II", route: "Miami ↔ West Africa",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LINE Inc"]],
   },
   {
     img: "https://cdn.builder.io/api/v1/image/assets%2F50786a5ca758437fb81ee8aca5401d4f%2Fb5bb33d226b745fcbaeb612980bba014?format=webp&width=800&height=1200", name: "M/V CATHOLIC III", route: "Miami ↔ Europe",
-    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LNE Inc"]],
+    specs: [["Type", "General Cargo / Container"], ["Capacity", "Up to 500 TEU"], ["Flag", "USA"], ["Operator", "Catholic Shipping LINE Inc"]],
   },
 ];
 
